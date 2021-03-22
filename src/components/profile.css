@@ -1,0 +1,263 @@
+.imagebox {
+    border: 1px soild #000 !important
+  }
+  .nav-tabs{
+    margin-bottom:5%;
+    border:none;
+  }
+  .nav-tabs .nav-link{
+    font-weight:600;
+  }
+  .nav-tabs .nav-link.active{
+    border: none;
+    border-bottom:2px solid #0062cc;
+  }
+  
+  .block {
+    text-align: center;
+    vertical-align: middle;
+  }
+  .circle {
+    background: red;
+    border-radius: 200px;
+    color: white;
+    height: 120px;
+    font-weight: bold;
+    width: 120px;
+    display: table;
+    margin: 20px auto;
+  }
+  .circle p {
+    vertical-align: middle;
+    display: table-cell;
+  }
+  .test {
+    width: 110px;
+    height: 110px;
+    background-color: lightgrey;
+  }
+  .test1 {
+    width: 110px;
+    height: 110px;
+    background-color: white;
+    border: 1px solid lightgray
+  }
+  .tags .tag {
+    display: inline-block;
+    margin-right: 4px;
+    font-size: 13px;
+  }
+
+.label-success {
+    background-color: #5cb85c;
+    margin:3px;
+}
+
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+h4 {border: 0 solid #efefef;
+border-bottom-width: 1px;
+padding-bottom: 10px;
+}
+
+.panel {
+  border-radius: 0.3rem;
+  padding: 1rem;
+  padding-top:20px;
+  border: 1px solid #efefef;
+}
+.panel a {
+  text-decoration:none;
+}
+.row {margin-left:0px;}
+
+.col-10{
+  padding:0px;
+}
+
+
+p {
+  overflow-wrap:break-word;
+}
+
+li {
+  list-style-type: none;
+  text-align:center;
+  cursor: pointer;
+  padding:5px;
+  /* border:1px solid black !important */
+}
+
+.imgframe {
+  padding-top:20px;
+  height:300px;
+  text-align: center;
+}
+
+.profileframe {
+  /* border:1px solid #ddd; */
+  margin-bottom:20px
+}
+
+.hearabout {
+  font-size:11pt;
+}
+
+.btn-info {
+  background: none;
+  color:green;
+  font-size:10pt;
+  cursor:auto;
+}
+
+.btn-info:hover {
+  color: green !important;
+  text-decoration: none;
+  background:none;
+  cursor:auto;
+  font-size:10pt;
+  }
+
+#myTab{
+  width:300px;
+}
+
+.chat-container {
+  height: 25rem;
+  min-height: 20rem;
+}
+/* @media (max-width: 575px) {
+  html {
+      font-size: 12px!important;
+  }
+  .d-xs-none {
+      display: none;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  html {
+      font-size: 16px!important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  html {
+      font-size: 18px!important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  html {
+      font-size: 20px!important;
+  }
+} */
+
+@media (min-width: 1200px) {
+  /* html {
+      font-size: 22px!important;
+  } */
+}
+* {
+  border-radius: 0px!important;
+  border-collapse: collapse;
+  box-shadow:none!important;
+}
+
+.message-card {
+  max-width: 60%;
+}
+.bg-lightblue{
+  background-color:#7CC0FF;
+}
+.bg-darkblue{
+  background-color:#0E5EA9;
+}
+.bg-lightgrey {
+  background-color:#f1f1f1;
+}
+.search-input-h {
+  height: 10%!important;
+}
+
+.hover-color-darkblue:hover {
+  color:#0E5EA9!important;
+}
+.hover-color-lightgray:hover {
+  color:#dcdcdc!important;
+}
+.hover-bg-lightgray:hover {
+  background-color: #dcdcdc!important;
+  cursor:pointer;
+}
+.active.hover-bg-lightgray:hover {
+  background-color: #0E5EA9!important;
+  cursor:pointer;
+}
+.border-chat-lightgray{
+  border-style: solid;
+  border-width: 1px 0 1px 1px;
+  border-color: #dfdfdf!important;
+}
+.text-white{
+  color: white;
+}
+.message-scroll {
+  overflow-y: auto;
+}
+.sidebar-scroll {
+ overflow-y: auto;
+}
+#sidebar-content {
+  display: flex;
+  flex-direction: column;
+}
+#list-group {
+  flex: 1 1;
+}
+/* ::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+width: 12px;
+background-color: #F5F5F5; 
+}
+
+::-webkit-scrollbar-thumb {
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-image: -webkit-gradient(linear, left bottom, left top, from(#30cfd0), to(#330867));
+background-image: -webkit-linear-gradient(bottom, #30cfd0 0%, #330867 100%);
+background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); 
+} */
+
+.card {
+  padding:0px
+}
+
+.message-list {
+  height: 68vh;
+  border-left: 2px solid #f4f4f4;
+  border-right: 2px solid #f4f4f4;
+}
+
+.fa-search {
+  font-size:12pt !important;
+  color:#000 !important;
+}
+
+.list-group-item p{
+  margin-bottom:0px !important
+}

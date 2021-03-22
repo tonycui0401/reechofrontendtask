@@ -1,0 +1,21 @@
+export const COMPANIES = [
+    "Deliveroo",
+    "Dropbox",
+    "eBay",
+    "Facebook",
+    "Funding Circle",
+    "Google",
+    "Groupon",
+    "Intercom",
+    "LinkedIn",
+    "Microsoft",
+    "Monzo",
+    "N29",
+    "Revolut",
+    "Salesforce",
+    "Skype",
+    "Spotify",
+    "Transferwise",
+    "Uber",
+    "Zendesk"
+];
